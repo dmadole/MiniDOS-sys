@@ -37,9 +37,9 @@ d_idewrite: equ   044ah
 begin:      br    start
 
             db    7+80h
-            db    28
+            db    29
             dw    2023
-            dw    100
+            dw    1
 
             db    'See github/dmadole/Elfos-sys for more information',0
 
