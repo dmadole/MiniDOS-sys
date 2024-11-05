@@ -36,12 +36,12 @@ d_idewrite: equ   044ah
  
 begin:      br    start
 
-            db    7+80h
-            db    29
-            dw    2023
-            dw    1
+            db    11+80h
+            db    5
+            dw    2024
+            dw    2
 
-            db    'See github/dmadole/Elfos-sys for more information',0
+            db    'See github/dmadole/MiniDOS-sys for more information',0
 
 
 start:      ldi   0                     ; presume only one argument

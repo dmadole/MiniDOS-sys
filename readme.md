@@ -1,3 +1,5 @@
+# MiniDOS-sys
+
 This command installs a bootloader on a Mini/DOS disk to make it bootable.
 
 With two arguments, a filename, and a drive specifier, it installs the original Elf/OS boot loader which loads the kernel from sectors 1-16 of the disk, and it copies the specified kernel into those sectors.
